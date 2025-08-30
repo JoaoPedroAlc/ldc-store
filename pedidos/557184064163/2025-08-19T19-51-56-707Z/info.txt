@@ -1,0 +1,8 @@
+{
+  "valorReais": 5,
+  "robux": 125,
+  "gamepass": "https://www.roblox.com/pt/game-pass/1414040301/divina",
+  "valorgamepass": 179,
+  "data": "19/08/2025, 16:51",
+  "status": "finalizado"
+}

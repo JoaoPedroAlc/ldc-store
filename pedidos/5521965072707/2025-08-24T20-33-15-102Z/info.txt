@@ -1,0 +1,8 @@
+{
+  "valorReais": 3,
+  "robux": 75,
+  "gamepass": "https://www.roblox.com/pt/game-pass/1419908043/yay-robux",
+  "valorgamepass": 108,
+  "data": "24/08/2025, 17:33",
+  "status": "aberto"
+}

@@ -1,0 +1,8 @@
+{
+  "valorReais": 4.9,
+  "robux": 175,
+  "gamepass": "https://www.roblox.com/share?code=f6aeb5b1286d8b49ade59cbeed788f52&type=Profile&source=ProfileShare&stamp=1754238991630",
+  "valorgamepass": 0,
+  "data": "03/08/2025, 13:37:25",
+  "status": "finalizado"
+}

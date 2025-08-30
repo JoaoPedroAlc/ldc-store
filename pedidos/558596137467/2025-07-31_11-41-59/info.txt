@@ -1,0 +1,9 @@
+{
+  "valorReais": 11,
+  "robux": 275,
+  "gamepass": "https://www.roblox.com/pt/game-pass/1367580094/gamepass-da-leleh",
+  "valorgamepass": 393,
+  "data": "31/07/2025, 11:41:59",
+  "status": "finalizado",
+  "metodo": "gamepass"
+}

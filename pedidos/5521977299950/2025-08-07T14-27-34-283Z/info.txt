@@ -1,0 +1,8 @@
+{
+  "valorReais": 8,
+  "robux": 200,
+  "gamepass": "https://www.roblox.com/pt/game-pass/238267242/uma-doiday",
+  "valorgamepass": 286,
+  "data": "07/08/2025, 11:27",
+  "status": "finalizado"
+}

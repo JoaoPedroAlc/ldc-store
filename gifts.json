@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1756088620099_5454",
+    "type": "image",
+    "title": "99 Noites",
+    "text": "99 Noites",
+    "imagePath": "gifts_images\\1756088515803_5963.jpeg",
+    "options": [
+      {
+        "id": "1756088549424_1407",
+        "label": "20 Diamantes",
+        "quantity": 20,
+        "price_reais": 2.77,
+        "price_robux_equivalent": 99
+      },
+      {
+        "id": "1756088572877_1175",
+        "label": "100 Diamantes",
+        "quantity": 100,
+        "price_reais": 11.2,
+        "price_robux_equivalent": 400
+      },
+      {
+        "id": "1756088600649_2142",
+        "label": "250 Diamantes",
+        "quantity": 250,
+        "price_reais": 25.17,
+        "price_robux_equivalent": 899
+      },
+      {
+        "id": "1756088613064_1496",
+        "label": "700 Diamantes",
+        "quantity": 700,
+        "price_reais": 69.93,
+        "price_robux_equivalent": 2498
+      }
+    ],
+    "createdAt": "2025-08-25T02:23:40.099Z",
+    "createdBy": "120363417029319969@g.us"
+  },
+  {
+    "id": "1756091288521_5253",
+    "type": "text",
+    "title": "ADOPT ME",
+    "text": "ADOPT ME",
+    "imagePath": null,
+    "options": [
+      {
+        "id": "1756091275984_1514",
+        "label": "Certificado",
+        "quantity": null,
+        "price_reais": 5,
+        "price_robux_equivalent": 179
+      }
+    ],
+    "createdAt": "2025-08-25T03:08:08.521Z",
+    "createdBy": "120363417029319969@g.us"
+  }
+]

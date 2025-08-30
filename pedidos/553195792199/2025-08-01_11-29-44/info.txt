@@ -1,0 +1,8 @@
+{
+  "valorReais": 4,
+  "robux": 100,
+  "gamepass": "https://www.roblox.com/pt/game-pass/1285690046/Donate",
+  "valorgamepass": 143,
+  "data": "01/08/2025, 11:29:44",
+  "status": "finalizado"
+}

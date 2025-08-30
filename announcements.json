@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1755984488940223",
+    "title": "Anúncio",
+    "message": "📢 ANÚNCIO – VENDA DE DIAMANTES 💎 no 99 Noites!\n\n🔥 Está querendo diamantes? Agora você pode comprar com a gente de forma rápida e segura!\n\n👉 Basta seguir o passo a passo:\n1️⃣ Digite /valor\n2️⃣ Selecione a opção 2 para conversão em REAIS (R$)\n3️⃣ Digite o valor em reais que deseja converter 💵\n4️⃣ Em seguida, use /comprar e digite o valor em Robux que deseja 🪙\n5️⃣ Selecione a opção GIFT 🎁\n\n⚡ Pronto! Seu pedido será processado imediatamente.\n\n💎 Diamantes garantidos no 99 Noites!",
+    "mention": false,
+    "groupId": "120363327370751008@g.us",
+    "once": false,
+    "schedule": "interval:200",
+    "media": "C:\\Users\\Joao\\Desktop\\2025\\projetos\\NOVO COMPRAR\\anunciar_uploads\\1755984477741.jpeg",
+    "active": true,
+    "lastSent": "2025-08-24T21:37:01.005Z"
+  },
+  {
+    "id": "175598501730914",
+    "title": "Anúncio",
+    "message": "*(ANÚNCIO):* 💰 Compre Robux por Grupo:\n\n⚠ Requisito: É necessário estar pelo menos 15 dias no grupo do Roblox:\nhttps://www.roblox.com/pt/communities/34782963/TeamEXP#!/about\n\n🔥 Entrega imediata: Pegue seus Robux na hora!\n\n💎 Preço: Cada 100 Robux por grupo → R$ 4,60\n\n👉 Garanta já os seus Roblox com facilidade!",
+    "mention": false,
+    "groupId": "120363327370751008@g.us",
+    "once": false,
+    "schedule": "interval:300",
+    "media": null,
+    "active": true,
+    "lastSent": "2025-08-24T19:57:03.367Z"
+  },
+  {
+    "id": "1755986049730296",
+    "title": "Anúncio",
+    "message": "📢 *(ANÚNCIO)* – Reajuste de Preço dos Robux por Grupo\n\n⚠ Novo valor: R$4,60 por 100 Robux\n💰 Valor anterior: R$4,50 por 100 Robux\n\ninfelizmente o preço sofreu um reajuste 😞",
+    "mention": false,
+    "groupId": "120363327370751008@g.us",
+    "once": false,
+    "schedule": "interval:240",
+    "media": null,
+    "active": true,
+    "lastSent": "2025-08-24T18:57:00.805Z"
+  },
+  {
+    "id": "1756048055416271",
+    "title": "Anúncio",
+    "message": "BOM DIA , BOM DIA , BOM DIA",
+    "mention": false,
+    "groupId": "120363417029319969@g.us",
+    "once": false,
+    "schedule": "interval:1",
+    "media": null,
+    "active": false,
+    "lastSent": "2025-08-24T15:14:30.882Z"
+  }
+]

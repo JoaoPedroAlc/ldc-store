@@ -1,0 +1,8 @@
+{
+  "valorReais": 17,
+  "robux": 425,
+  "gamepass": "https://www.roblox.com/pt/users/7865289931/profile",
+  "valorgamepass": 608,
+  "data": "03/08/2025, 19:23:48",
+  "status": "finalizado"
+}

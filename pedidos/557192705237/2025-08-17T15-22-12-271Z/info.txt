@@ -1,0 +1,8 @@
+{
+  "valorReais": 28,
+  "robux": 700,
+  "gamepass": "https://create.roblox.com/dashboard/creations/experiences/6465367425/monetization/price-check",
+  "valorgamepass": 1001,
+  "data": "17/08/2025, 12:22",
+  "status": "finalizado"
+}

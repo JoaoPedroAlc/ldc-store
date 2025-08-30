@@ -1,0 +1,8 @@
+{
+  "valorReais": 11.25,
+  "robux": 250,
+  "gamepass": "https://www.roblox.com/pt/users/7667071931/profile?friendshipSourceType=PlayerSearch",
+  "valorgamepass": 0,
+  "data": "31/07/2025, 13:12:51",
+  "status": "finalizado"
+}

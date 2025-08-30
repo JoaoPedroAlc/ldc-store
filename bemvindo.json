@@ -1,0 +1,16 @@
+{
+  "120363417029319969@g.us": {
+    "enabled": true,
+    "messages": [
+      "Seja bem vindo {{name}} ao {{group}} !"
+    ]
+  },
+  "120363327370751008@g.us": {
+    "enabled": true,
+    "messages": [
+      "👋 Olá {{name}}! Bem-vindo(a) ao {{group}}!\nAqui você pode comprar Robux facilmente. 💎\nConfira os comandos disponíveis:\n\n/comprar [quantidade] → Compre Robux, ex: /comprar 100\n\n/valor → Descubra quanto custa os Robux\n\n/link → Pegue links do WhatsApp, site e grupo do Roblox\n\n/ajuda → Tire qualquer dúvida sobre como usar o grupo\n\nAproveite e boas compras! 😎",
+      "✨ Seja bem-vindo(a), {{name}}! Agora você faz parte do {{group}}! ✨\nAqui você pode comprar Robux e conferir os preços sempre que quiser:\n\n/comprar [quantidade] → Para comprar Robux (ex: /comprar 100)\n\n/valor → Descubra o preço dos Robux\n\n/link → Links do WhatsApp, site e grupo do Roblox\n\n/ajuda → Caso precise de ajuda ou informações\n\n💡 Dica: Use os comandos para facilitar suas compras!",
+      "🔥 E aí, {{name}}! Bem-vindo(a) ao {{group}}! 🔥\nQuer Robux? É simples:\n\n/comprar [quantidade] → Ex: /comprar 100\n\n/valor → Descubra quanto custa cada Robux\n\n/link → Pegue todos os links importantes (Whats, site, Roblox)\n\n/ajuda → Pergunte se tiver qualquer dúvida\n\n💎 Aproveite e faça suas compras!"
+    ]
+  }
+}

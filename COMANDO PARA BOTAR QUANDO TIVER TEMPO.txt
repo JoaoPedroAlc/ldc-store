@@ -1,0 +1,93 @@
+// /setsilenciar HH:MM - Define horário para fechar o grupo
+        else if (command.startsWith('/setsilenciar')) {
+            if (!isAdmin) return msg.reply("❌ Apenas administradores podem usar esse comando.");
+
+            const partes = msg.body.trim().split(' ');
+            if (partes.length !== 2) {
+                return msg.reply('❌ Formato inválido. Use `/setsilenciar HH:MM` (ex: 22:00)');
+            }
+
+            const hora = formatarHora(partes[1]);
+            if (!hora) {
+                return msg.reply('❌ Horário inválido. Use no formato `HH:MM`, ex: `22:00`');
+            }
+
+            const groupId = msg.from;
+            horarios[groupId] = horarios[groupId] || {};
+            horarios[groupId].silenciar = hora;
+            salvarHorarios();
+
+            // Aplica imediatamente a mudança
+            try {
+                const agora = new Date();
+                const estaFechado = horarios[groupId].liberar ? 
+                    estaDentroDoIntervalo(hora, horarios[groupId].liberar, agora) : false;
+                
+                const chat = await client.getChatById(groupId);
+                await chat.setMessagesAdminsOnly(estaFechado);
+                
+                msg.reply(`✅ Horário de fechar o grupo configurado para ${partes[1]}\n` +
+                         `📌 Status atual: ${estaFechado ? 'FECHADO' : 'ABERTO'}`);
+            } catch (err) {
+                console.error('Erro ao aplicar silenciamento:', err);
+                msg.reply('✅ Horário configurado, mas ocorreu um erro ao aplicar: ' + err.message);
+            }
+        }
+
+        // /setliberar HH:MM - Define horário para abrir o grupo
+        else if (command.startsWith('/setliberar')) {
+            if (!isAdmin) return msg.reply("❌ Apenas administradores podem usar esse comando.");
+
+            const partes = msg.body.trim().split(' ');
+            if (partes.length !== 2) {
+                return msg.reply('❌ Formato inválido. Use `/setliberar HH:MM` (ex: 07:00)');
+            }
+
+            const hora = formatarHora(partes[1]);
+            if (!hora) {
+                return msg.reply('❌ Horário inválido. Use no formato `HH:MM`, ex: `07:00`');
+            }
+
+            const groupId = msg.from;
+            horarios[groupId] = horarios[groupId] || {};
+            horarios[groupId].liberar = hora;
+            salvarHorarios();
+
+            // Aplica imediatamente a mudança
+            try {
+                const agora = new Date();
+                const estaFechado = horarios[groupId].silenciar ? 
+                    estaDentroDoIntervalo(horarios[groupId].silenciar, hora, agora) : false;
+                
+                const chat = await client.getChatById(groupId);
+                await chat.setMessagesAdminsOnly(estaFechado);
+                
+                msg.reply(`✅ Horário de abrir o grupo configurado para ${partes[1]}\n` +
+                         `📌 Status atual: ${estaFechado ? 'FECHADO' : 'ABERTO'}`);
+            } catch (err) {
+                console.error('Erro ao aplicar liberação:', err);
+                msg.reply('✅ Horário configurado, mas ocorreu um erro ao aplicar: ' + err.message);
+            }
+        }
+        // /whats - Envia o link do grupo
+        else if (command === '/whats') {
+            msg.reply('📎 Link do grupo WhatsApp:\nhttps://chat.whatsapp.com/HIHO5OwdNam53GEyounVig');
+        }
+        // /horario - Mostra os horários configurados
+        else if (command === '/horario' || command === '/horarios') {
+            const groupId = msg.from;
+            const config = horarios[groupId] || {};
+            
+            if (!config.silenciar || !config.liberar) {
+                return msg.reply('ℹ️ Nenhum horário configurado para este grupo.\n' +
+                               'Use /setsilenciar HH:MM e /setliberar HH:MM para configurar.');
+            }
+
+            const agora = new Date();
+            const estaFechado = estaDentroDoIntervalo(config.silenciar, config.liberar, agora);
+
+            msg.reply(`⏰ *Horários do grupo:*\n` +
+                     `🔒 Fechar: ${String(config.silenciar.hora).padStart(2, '0')}:${String(config.silenciar.minuto).padStart(2, '0')}\n` +
+                     `🔓 Abrir: ${String(config.liberar.hora).padStart(2, '0')}:${String(config.liberar.minuto).padStart(2, '0')}\n` +
+                     `📌 *Status atual:* ${estaFechado ? 'FECHADO' : 'ABERTO'}`);
+        }

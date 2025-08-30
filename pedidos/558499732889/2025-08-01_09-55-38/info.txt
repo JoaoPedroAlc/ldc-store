@@ -1,0 +1,8 @@
+{
+  "valorReais": 20,
+  "robux": 500,
+  "gamepass": "https://www.roblox.com/pt/game-pass/1366443022/Estrela-fofa",
+  "valorgamepass": 715,
+  "data": "01/08/2025, 09:55:38",
+  "status": "finalizado"
+}

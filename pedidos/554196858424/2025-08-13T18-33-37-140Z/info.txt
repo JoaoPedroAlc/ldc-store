@@ -1,0 +1,8 @@
+{
+  "valorReais": 4.48,
+  "robux": 112,
+  "gamepass": "https://www.roblox.com/game-pass/1398486656/robux",
+  "valorgamepass": 160,
+  "data": "13/08/2025, 15:33",
+  "status": "finalizado"
+}

@@ -1,0 +1,8 @@
+{
+  "valorReais": 4,
+  "robux": 100,
+  "gamepass": "Que toppp",
+  "valorgamepass": 143,
+  "data": "27/07/2025, 22:45:32",
+  "status": "finalizado"
+}

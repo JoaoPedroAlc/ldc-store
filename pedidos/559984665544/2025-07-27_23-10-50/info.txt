@@ -1,0 +1,8 @@
+{
+  "valorReais": 10,
+  "robux": 250,
+  "gamepass": "Luccazamor",
+  "valorgamepass": 358,
+  "data": "27/07/2025, 23:10:50",
+  "status": "finalizado"
+}

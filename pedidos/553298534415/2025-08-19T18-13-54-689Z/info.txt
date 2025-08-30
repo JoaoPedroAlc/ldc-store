@@ -1,0 +1,8 @@
+{
+  "valorReais": 3.48,
+  "robux": 87,
+  "gamepass": "https://create.roblox.com/dashboard/creations/experiences/1180411818/passes/1408943180/configure",
+  "valorgamepass": 125,
+  "data": "19/08/2025, 15:13",
+  "status": "finalizado"
+}
