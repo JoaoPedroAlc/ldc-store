@@ -1,0 +1,17 @@
+{
+  "name": "novo-comprar",
+  "version": "1.0.0",
+  "main": "abrirfechar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^24.17.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.33.0"
+  }
+}
